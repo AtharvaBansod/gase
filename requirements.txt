@@ -1,0 +1,9 @@
+# Streamlit for the UI
+streamlit
+
+# Search Engine dependencies
+pandas
+numpy
+sentence-transformers
+torch
+faiss-cpu

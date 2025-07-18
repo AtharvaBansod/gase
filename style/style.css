@@ -1,0 +1,76 @@
+/* Import a futuristic font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+/* Main app container */
+[data-testid="stAppViewContainer"] {
+    background-color: #010409;
+    background-image: linear-gradient(180deg, #0d1117 0%, #010409 100%);
+}
+
+/* Main title */
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00FFA3; /* A vibrant, futuristic green */
+    text-shadow: 0 0 10px #00FFA3, 0 0 20px #00FFA3;
+    text-align: center;
+}
+
+/* The search input box */
+[data-testid="stTextInput"] input {
+    background-color: #0d1117;
+    border: 1px solid #2F81F7; /* A bright blue border */
+    color: #c9d1d9;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(47, 129, 247, 0.4);
+}
+
+/* The "Search" button */
+[data-testid="stButton"] button {
+    background-color: #238636;
+    color: white;
+    border: 1px solid #2ea043;
+    border-radius: 8px;
+    width: 100%;
+}
+
+[data-testid="stButton"] button:hover {
+    background-color: #2ea043;
+    border-color: #3fb950;
+}
+
+/* Container for each result card */
+.result-card {
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgba(13, 17, 23, 0.8);
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.result-card:hover {
+    border-color: #00FFA3;
+    box-shadow: 0 0 15px rgba(0, 255, 163, 0.3);
+}
+
+/* Gadget name inside the card */
+.gadget-name {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #58a6ff; /* A lighter blue */
+}
+
+/* Gadget function text inside the card */
+.gadget-function {
+    font-size: 1em;
+    color: #c9d1d9; /* Light grey for readability */
+}
+
+/* Similarity score */
+.similarity-score {
+    font-size: 0.9em;
+    color: #00FFA3;
+    font-weight: bold;
+    text-align: right;
+}
