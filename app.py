@@ -65,7 +65,7 @@ def load_search_engine():
 # Apply the custom CSS
 st.markdown(f'<style>{load_css("style/style.css")}</style>', unsafe_allow_html=True)
 
-st.title("G.A.S.E")
+st.title("POUCH PAL")
 st.markdown("<p style='text-align: center; color: #8b949e;'>Gadget Assisted Search Engine</p>", unsafe_allow_html=True)
 
 # Load the search engine
